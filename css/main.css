@@ -1,0 +1,232 @@
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header {
+    background: black;
+    border-bottom: 4px solid yellow;
+}
+
+.header h1 {
+    color: yellow;
+    font-family: 'Merriweather', serif;
+    font-size: 1.85em;
+    padding: 20px 3%;
+    float: left;
+}
+
+.header nav {
+    float: right;
+    padding-right: 40px;
+}
+
+.header nav li {
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+
+.header nav li a {
+    padding: 25px 15px;
+    display: block;
+}
+
+.header nav li a:hover {
+    color: yellow;
+}
+
+.current_link {
+    background: rgb(102, 102, 102);
+    display: block;
+}
+
+.nav_team {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav_links {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tagline {
+    background: rgb(198, 198, 198);
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+del {
+    color: rgb(153, 153, 153);
+    text-decoration: line-through;
+}
+
+ins {
+    border-bottom: 3px solid yellow;
+    text-decoration: none;
+}
+
+
+.center_cropped {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blurb {
+    float: right;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 5px 0px;
+    width: 40%;
+    margin: 3%;
+    line-height: 1.5;
+}
+
+.blurb_wrap {
+    padding: 10%;
+}
+
+.blurb h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blurb p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px -3px 0px 0px inset;
+    line-height: 3;
+    margin-top: 20px;
+}
+
+.primary {
+    background: yellow;
+}
+
+.secondary {
+    background: rgb(198, 198, 198);
+}
+
+.sections {
+    color: black;
+    width: 100%;
+}
+
+.sub_section {
+    width: 27%;
+    float: left;
+    border-left: 1px solid rgb(198, 198, 198);
+    line-height: 1.5;
+    padding: 2% 3%;
+    margin: 30px 0;
+}
+
+
+.sub_section h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.sub_section p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.sub_section:first-of-type {
+    border: none;
+}
+
+.footer {
+    background: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding: 30px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.footer p {
+    margin-left: 3%;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.profiles {
+    background: rgb(198, 198, 198);
+    padding: 10px 0;
+    display: block;
+}
+
+.cards_wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 1335px;
+}
+
+.profile_card {
+    width: 21%;
+    background: white;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.profile_card h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    margin: 20px 0 5px 0;
+}
+
+.skill {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    background: rgb(102, 102, 102);
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 5px 5px 0;
+    white-space: nowrap;
+}
+
+.profile_pic {
+    width: 100%;
+}
